@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(250, 215, 238);
+}
+
+h1{
+    color:rgb(140, 5, 91);
+}
+
+p{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none; 
+    background-color: rgb(133, 18, 247);
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.ball{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: rgb(91, 193, 216);
+    border: 3px solid black
+}
+
+.text-important{
+    font-size: 2rem;
+    background-color: rgb(252, 246, 90);
+    font-style: oblique;
+}
+
+#tituloWeb{
+    font-family: "Coiny", system-ui;
+}
