@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(77, 180, 244);
+    text-shadow: 1px 1px 1px black;
+}
+
+a{
+    text-decoration: none;
+    /* color: inherit; */
+    color: aliceblue;
+    background-color: rgb(155, 235, 63);
+}
+
+.diferente{
+    text-shadow: none;
+    color: rgb(231, 27, 163);
+}
+.container{
+
+h1 span{
+    text-shadow: none;
+    background-color: rgb(223, 237, 118);
+}
+}
+
+ul{
+
+
+}
+
+li{
+
+}
+
+p{
+
+}
+
+a{
+    color: rgb(87, 26, 4);
+    background-color: rgb(254, 229, 9);
+    text-shadow: none;
+}
+
+/* Ejemplo de ESPECIFIDAD */
+h1{
+    color: rgb(77, 180, 244);
+}
+
+.blue{
+    color: blue ;
+}
+#red{
+    color:brown;
+}
