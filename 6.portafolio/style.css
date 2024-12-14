@@ -101,3 +101,99 @@ header{
     top: 0;
     transform: rotate(60deg);
 }
+
+/*Sección productos*/
+
+#productos{
+    background-color: rgb(191, 194, 195);
+}
+
+#productos > .container{
+    background-color: rgb(131, 137, 142);
+}
+
+.product-content{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.product-card{
+    flex: 1;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+/* .product-content div:nth-child(1){
+    background-color: rgb(2, 154, 255);
+} */
+/* .product-content div:nth-child(2){
+    background-color: rgb(162, 255, 2);
+} */
+/* .product-content div:nth-child(3){
+    background-color: rgb(255, 23, 2);
+} */
+
+
+.product-card:hover .card-hover{
+    opacity: 1;
+}
+/* card hover*/
+.card-hover{
+    /*flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.51) !important;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition-duration: .2s;
+}
+/* Card hover header */
+.card-hover-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.card-hover-header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-save{
+    background-color: rgb(204, 13, 13);
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card img{
+    width: 100%;
+}
+
+/* Card hover footer */
+.card-hover-footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.card-hover-footer i{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
