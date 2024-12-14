@@ -7,10 +7,13 @@
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: start;
+    /* align-items: stretch;
+    align-content: stretch; */
+    flex-wrap: wrap;
+    gap: 30px;
 
-    width: 500px;
+    width: 600px;
     height: 600px;
     background-color: blueviolet;
     border: 3px solid black;
@@ -21,7 +24,12 @@
     width: 100px;
     height: 100px;
     background-color: orange;
-    border-radius: 50%;
+    border-radius: 10px;
     border: 3px solid black;
     color: white;
+}
+
+.tres{
+    background-color: #232323;
+    align-self: flex-start;
 }
