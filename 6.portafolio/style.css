@@ -247,7 +247,8 @@ header{
         /* background-color: blueviolet; */
     }
     .product-content{
-        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
         grid-template-columns: 1fr 1fr;
     }
     /* .product-card{
