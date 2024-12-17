@@ -526,5 +526,8 @@ footer{
         padding: 12px;
         font-size: 14px;
     }
+    .card-hover-footer{
+        font-size: 3rem;
+    }
 }
 
